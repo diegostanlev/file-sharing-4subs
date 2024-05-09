@@ -8,10 +8,10 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "24955235"))
+APP_ID = int(os.environ.get("APP_ID", "27826569"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "f317b3f7bbe390346d8b46868cff0de8")
+API_HASH = os.environ.get("API_HASH", "16d4e33ea8d9f7160b61b228c18b5829")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002075726565")) # give admin rights all fouth channels ( add yr bot into yr channels)
@@ -23,8 +23,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1837294444"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Cluster0:Cluster0@cluster0.c07xkuf.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://motof22932:@cluster0.asoxks3.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluser0")
 
 # force sub channel id, if you want enable force sub
 # give admin rights all fouth channels ( add yr bot into yr channels)
