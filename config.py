@@ -24,7 +24,7 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "postgres://koyeb-adm:fSIjTMsE4bu6@ep-red-king-a1x2vaqg.ap-southeast-1.pg.koyeb.app/koyebdb")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
+DB_NAME = os.environ.get("DATABASE_NAME", "koyebdb")
 
 # force sub channel id, if you want enable force sub
 # give admin rights all fouth channels ( add yr bot into yr channels)
